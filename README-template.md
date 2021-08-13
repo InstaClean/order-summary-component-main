@@ -32,7 +32,7 @@ Above: Completed Order Summary Card
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Oder Summary](https://instaclean.github.io/order-summary-component-main/)
 
 ## My process
 
