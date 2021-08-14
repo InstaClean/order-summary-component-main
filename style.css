@@ -4,6 +4,7 @@ body {
   background-repeat: no-repeat;
   background-size: 100%;
   font-family: "Red Hat Display", sans-serif;
+  border: 1px solid red;
 }
 
 .container {
@@ -117,8 +118,9 @@ body {
   color: black;
 }
 
-.footer {
+footer {
   text-align: center;
+  z-index: 2;
 }
 
 /*# sourceMappingURL=style.css.map */
