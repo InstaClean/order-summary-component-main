@@ -28,104 +28,105 @@ body
     max-width: 450px
     margin: auto
 
+    .hero
+        margin-top: 0px
+        border-radius: 12px
+        z-index: -1
+        margin-top: 160px
+        border-radius: 10px 10px 0px 0px
 
-.card
-    position: relative
-    bottom: 12px
-    display: flex
-    flex-direction: column
-    margin: auto
-    margin-top: 0px
-    justify-content: flex-start
-    align-items: center
-    height: 500px
-    background-color: white
-    border-radius: 0px 0px 10px 10px
-    box-shadow: 0 10px 10px -10px grey
 
-.hero
-    margin-top: 0px
-    border-radius: 12px
-    z-index: -1
-    margin-top: 160px
-    border-radius: 10px 10px 0px 0px
+    .card
+        position: relative
+        bottom: 12px
+        display: flex
+        flex-direction: column
+        margin: auto
+        margin-top: 0px
+        justify-content: flex-start
+        align-items: center
+        height: 500px
+        background-color: white
+        border-radius: 0px 0px 10px 10px
+        box-shadow: 0 10px 10px -10px grey
 
-.content 
-    display: flex
-    justify-content: center
-    text-align: center
-    flex-direction: column
-    margin: 64px
-    margin-bottom: 0px
-    margin-left: 64px
-    margin-right: 64px
-    margin-top: 48px
 
-    h1
-        font-size: 32px
-        color: $dark-blue
-    p
-        font-size: 16px
-        padding-top: 16px
-        line-height: 1.5
-        color: $desaturated-blue
+    .content 
+        display: flex
+        justify-content: center
+        text-align: center
+        flex-direction: column
+        margin: 64px
+        margin-bottom: 0px
+        margin-left: 64px
+        margin-right: 64px
+        margin-top: 48px
 
-.order
-    display: flex
-    margin-top:    16px
-    padding: 16px
-    flex-direction: row
-    background-color: $very-pale-blue
-    width: 318px
-    border-radius: 12px
+        h1
+            font-size: 32px
+            color: $dark-blue
+        p
+            font-size: 16px
+            padding-top: 16px
+            line-height: 1.5
+            color: $desaturated-blue
 
-    .note
-        margin-right: 16px
+    .order
+        display: flex
+        margin-top:    16px
+        padding: 16px
+        flex-direction: row
+        background-color: $very-pale-blue
+        width: 318px
+        border-radius: 12px
+
+        .note
+            margin-right: 16px
+
+        .info
+            h2
+                color: $dark-blue
+            h3
+                color: $desaturated-blue
+                padding-top: 16px
+                padding-bottom: 0px
+                font-weight: normal
+
+        a
+            padding-left: 48px
+            padding-top: 16px
+            color: $bright-blue
+            text-decoration: underline
+        a:hover
+            color: $highlight-blue
+
+
 
     .info
-        h2
-            color: $dark-blue
-        h3
-            color: $desaturated-blue
-            padding-top: 16px
-            padding-bottom: 0px
-            font-weight: normal
+        display: flex
+        flex-direction: column
 
-    a
-        padding-left: 48px
-        padding-top: 16px
-        color: $bright-blue
-        text-decoration: underline
-    a:hover
-        color: $highlight-blue
+    .payment
+        width: 318px
+        height: 48px
+        margin-top: 32px
+        background-color: $bright-blue
+        border-radius: 12px
+        color: white
+        border: none
+        box-shadow: 0 10px 10px -10px grey
 
+    .payment:hover
+        background-color: $highlight-blue
 
+    .cancel
+        width: 318px
+        height: 48px
+        margin-top: 32px
+        border-radius: 12px
+        background-color: white
+        border: none
+        color: $desaturated-blue
 
-.info
-    display: flex
-    flex-direction: column
-
-.payment
-    width: 318px
-    height: 48px
-    margin-top: 32px
-    background-color: $bright-blue
-    border-radius: 12px
-    color: white
-    border: none
-    box-shadow: 0 10px 10px -10px grey
-
-.payment:hover
-    background-color: $highlight-blue
-
-.cancel
-    width: 318px
-    height: 48px
-    margin-top: 32px
-    border-radius: 12px
-    background-color: white
-    border: none
-    color: $desaturated-blue
-
-.cancel:hover
-    color: black
+    .cancel:hover
+        color: black
