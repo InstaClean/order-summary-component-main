@@ -69,10 +69,10 @@ body {
 .container .order .note {
   margin-right: 16px;
 }
-.container .order .info h2 {
+.container .order .info .plan {
   color: #1f2f56;
 }
-.container .order .info h3 {
+.container .order .info .price {
   color: #7280a7;
   padding-top: 16px;
   padding-bottom: 0px;
